@@ -1,0 +1,116 @@
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: white;
+}
+
+.top{
+    flex-shrink: 0;
+    flex-basis: 40px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+
+.center{
+    flex-grow: 1;
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchform{
+    width: 80%;
+}
+
+.flexcenter{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: lightgray;
+    flex-basis: 45px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-country{
+    display: flex;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.footer-about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-about-left{
+    display: flex;
+}
+.footer-about-right{
+    display: flex;
+}
+
+
+.hreflink{
+    margin: 5px;
+    font-size: 0.8em;
+    color: #3c4043;
+    padding: 2px 5px;
+}
+
+.searchButton {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    margin: 10px;
+}
