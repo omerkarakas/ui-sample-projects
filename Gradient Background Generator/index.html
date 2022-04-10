@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gradient Background Generator</title>
+</head>
+<body>
+  <h1>Gradient Background Generator</h1>
+  <div>
+      <div id="selection">
+        <h2>Select your colors</h2>
+        <input type="color" id="color1" value="#00FF00">
+        <input type="color" id="color2" value="#FF0000">
+      </div>
+    <h3 id="current">linear-gradient(to right, #00FF00 , #FF0000);</h3>
+    <button onclick="copySelection()">Copy text</button>
+  </div>  
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
