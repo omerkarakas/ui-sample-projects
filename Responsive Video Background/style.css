@@ -1,7 +1,8 @@
-body{
+body {
     margin: 0;
 }
-.video-container{
+
+.video-container {
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -11,7 +12,16 @@ body{
     align-items: flex-start;
 }
 
-#bck-video{
+.video-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#bck-video {
     position: absolute;
     width: auto;
     height: auto;
@@ -19,11 +29,11 @@ body{
     min-height: 100%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     z-index: -1;
 }
 
-.text-content{
+.text-content {
     background-color: rgba(255, 255, 255, 0.8);
     color: steelblue;
     font-size: 48px;
@@ -32,5 +42,5 @@ body{
     margin-top: 100px;
     font-family: sans-serif;
     text-align: center;
-    
+
 }
